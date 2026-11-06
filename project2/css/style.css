@@ -197,4 +197,12 @@ p:lang(en){
 h2 + figure{
     padding-bottom: 110px;
 }
+table {      
+    border-collapse: collapse;
+    border: 5px solid gray;
+}
+  
+td, th {
+    border: 2px solid black;
+}
 
