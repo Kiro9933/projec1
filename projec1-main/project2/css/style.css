@@ -197,12 +197,29 @@ p:lang(en){
 h2 + figure{
     padding-bottom: 110px;
 }
+table tbody tr td:first-child {
+    font-weight: bold;
+    background-color: #3cc805; 
+}
+
+table tbody tr:last-child td {
+    border-bottom: 2px solid #00c1b7; 
+    background-color: #4444f0;
+}
+
 table {      
     border-collapse: collapse;
-    border: 5px solid gray;
+    border: 5px solid rgb(4, 223, 113);
+}
+td:nth-child(1)
+{
+text-align:left;
+background-color:#8642da
 }
   
+
+
+
 td, th {
     border: 2px solid black;
 }
-
